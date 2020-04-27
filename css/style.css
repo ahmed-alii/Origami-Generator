@@ -1,0 +1,22 @@
+.amber-textarea textarea.md-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #ffa000 !important;
+    box-shadow: 0 1px 0 0 #ffa000 !important;
+}
+.active-amber-textarea.md-form label.active {
+    color: #ffa000 !important;
+}
+.active-amber-textarea.md-form textarea.md-textarea:focus:not([readonly])+label  {
+    color: #ffa000 !important;
+}
+
+.poppins{
+    font-family: poppins, sans-serif;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+.logo{
+    width: 100px;
+}

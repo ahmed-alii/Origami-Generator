@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!--Title of the page-->
+    <title>Origami</title>
+
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mdb.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="row px-0 mx-0 cloudy-knoxville-gradient">
+
+    <!-- This is the left side containing the form -->
+    <div class="col-md-4 col-lg-4 pl-5">
+        <div class="py-5 mt-3">
+            <!--Logo Image. 350px square-->
+            <img src="./img/logo.png" alt="Origami" class="d-inline-block logo">
+            <h1 class="font-weight-bold h1 py-3 poppins">Origami Generator</h1>
+            <hr class="my-3">
+            <h4 class="font-weight-bold dark-grey-text poppins">Instructions</h4>
+        </div>
+
+        <form action="#">
+            <div class="md-form amber-textarea active-amber-textarea">
+                <textarea id="instructions" class="md-textarea form-control" rows="6"></textarea>
+                <label for="instructions">Write your instructions here.</label>
+            </div>
+            <!--This is the submit button-->
+            <button type="submit" class="btn btn-rounded btn-amber">Generate Steps</button>
+        </form>
+    </div>
+    <!--Left side bar ends here-->
+
+    <!--Start of Right Section-->
+    <div class="col-md-8 col-lg-8 overflow-auto vh-100 pt-5">
+
+        <!-- Steps Card Start-->
+        <!--This div goes into the loop for generating multiple cards.-->
+        <div class="my-4 py-4 z-depth-1 bg-white">
+            <section class="px-3 mx-3  dark-grey-text">
+
+                <!-- Span text in this H3 needs to be replaced.-->
+                <h3 class="mb-2 h5 orange-text poppins">Step# <span class="h2 black-text font-weight-bold">1</span>.</h3>
+
+                <!--This paragraph is replaced with the summary or description.-->
+                <p class="text-muted text-justify">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam vitae, fuga similique
+                    quos aperiam tenetur quo ut rerum debitis eum nemo exercitationem.
+                </p>
+
+                <!-- This row contains both the images-->
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 pl-md-0 pl-lg-0 ">
+
+                        <!--Replace image source here-->
+                        <img src="https://via.placeholder.com/400x300"
+                             class="img-fluid z-depth-1"
+                             alt="Responsive image">
+                    </div>
+
+                    <div class="col-md-6 col-sm-12 pr-md-0 pr-lg-0">
+
+                        <!--Replace image source here-->
+                        <img src="https://via.placeholder.com/400x300"
+                             class="img-fluid z-depth-1"
+                             alt="Responsive image">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Steps Card End-->
+
+
+        <!-- Some Spaces just to lift the last card up. For better visibility-->
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+    </div>
+    <!--End of Right Section  -->
+
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/mdb.min.js"></script>
+
+</body>
+</html>
